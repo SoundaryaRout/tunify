@@ -152,35 +152,49 @@ height: 100%;
 }
 .music-player{
     width: 100%;
-    height: 120px;
+    height: 100%;
     background-color: rgba(14, 13, 13, 0.872);
     border-radius: 40px;
    margin-bottom: 10px;
    align-items: center;
    display: flex;
    justify-content: space-between;
-   padding: 10px;
+   
+   
    }
    .music-name small{
     color: #e5d1d1;
+    font-size: 10px;
+   }
+   .music-name strong{
+    font-size: 15px;
    }
    .music-title{
     display: flex;
+    width: 100%;
     color: white;
     align-items: center;
     gap: 35px;
     font-size: 20px;
    }
    .music-pic img{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 30px;
     margin-top: 15px;
     margin-left: 10px;
+    margin-bottom: 10px;
    }
-   .music-controller span{
+   .music-controller {
     color: white;
     font-size: 30px;
-    margin-right: 5px;
+    padding-right: 20px;
+    align-items: center;
+    gap: 7px;
+    display: flex;
+
+   }
+   #prev-button,#next-button{
+    font-size: 20px;
    }
    
